@@ -5,7 +5,7 @@ import Description from "./Description";
 
 function LuxuryCard() {
   return (
-    <div className='bg-veryDarkCyan p-7 pt-14 rounded '>
+    <div className='bg-veryDarkCyan rounded card-padding'>
       <Icon
         svgELement={
           <svg width='64' height='40' xmlns='http://www.w3.org/2000/svg'>

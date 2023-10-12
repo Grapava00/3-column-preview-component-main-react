@@ -5,7 +5,7 @@ import Description from "./Description";
 
 function SedanCard() {
   return (
-    <div className='bg-brightOrange p-7 pt-14 rounded'>
+    <div className='bg-brightOrange card-padding rounded'>
       <Icon
         svgELement={
           <svg width='64' height='40' xmlns='http://www.w3.org/2000/svg'>

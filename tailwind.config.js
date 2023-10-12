@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      width: {
+        "45%": "45%",
+      },
       height: {
         "505px": "505px",
       },
