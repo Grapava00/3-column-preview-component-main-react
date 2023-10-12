@@ -5,7 +5,7 @@ import Description from "./Description";
 
 function SuvCard() {
   return (
-    <div className='bg-darkCyan p-7'>
+    <div className='bg-darkCyan p-7 pt-14'>
       <Icon
         svgELement={
           <svg width='64' height='40' xmlns='http://www.w3.org/2000/svg'>

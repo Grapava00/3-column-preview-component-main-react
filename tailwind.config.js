@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      height: {
+        "505px": "505px",
+      },
       fontFamily: {
         "lexend-deca": ["Lexend Deca", "sans-serif"],
         "big-shoulders-display": ["Big Shoulders Display", "sans-serif"],

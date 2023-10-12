@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 function Description({ text }) {
   return (
-    <p className='text-transparentWhite font-lexend-deca font-normal mb-8'>
+    <p className='text-transparentWhite font-lexend-deca font-normal mb-20'>
       {text}
     </p>
   );
