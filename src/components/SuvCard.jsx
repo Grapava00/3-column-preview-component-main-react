@@ -5,7 +5,7 @@ import Description from "./Description";
 
 function SuvCard() {
   return (
-    <>
+    <div className='bg-darkCyan p-7'>
       <Icon
         svgELement={
           <svg width='64' height='40' xmlns='http://www.w3.org/2000/svg'>
@@ -20,13 +20,15 @@ function SuvCard() {
           </svg>
         }
       />
-      <Title title='SUVs' />
+      <Title title='SUVS' />
       <Description
         text='   Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation
    and off-road adventures.'
       />
-      <button>Learn More</button>
-    </>
+      <button className='bg-veryLightGray hover:bg-darkCyan hover:text-white border-2  text-darkCyan font-big-shoulders-display  rounded-full py-2 px-4'>
+        Learn More
+      </button>
+    </div>
   );
 }
 

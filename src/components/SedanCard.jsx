@@ -5,7 +5,7 @@ import Description from "./Description";
 
 function SedanCard() {
   return (
-    <>
+    <div className='bg-brightOrange p-7 rounded'>
       <Icon
         svgELement={
           <svg width='64' height='40' xmlns='http://www.w3.org/2000/svg'>
@@ -20,13 +20,15 @@ function SedanCard() {
           </svg>
         }
       />
-      <Title title='SEDANS' />
+      <Title title='SEDANS' className='text-brightOrange' />
       <Description
         text='Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
 or on your next road trip.'
       />
-      <button>Learn More</button>
-    </>
+      <button className='bg-veryLightGray  hover:bg-brightOrange hover:text-white border-2 text-brightOrange font-big-shoulders-display  py-2 px-4 rounded-full'>
+        Learn More
+      </button>
+    </div>
   );
 }
 

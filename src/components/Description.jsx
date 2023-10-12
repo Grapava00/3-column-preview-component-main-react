@@ -2,7 +2,11 @@ import React from "react";
 import PropTypes from "prop-types";
 
 function Description({ text }) {
-  return <p>{text}</p>;
+  return (
+    <p className='text-transparentWhite font-lexend-deca font-normal mb-8'>
+      {text}
+    </p>
+  );
 }
 
 Description.propTypes = {

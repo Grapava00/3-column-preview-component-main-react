@@ -5,7 +5,7 @@ import Description from "./Description";
 
 function LuxuryCard() {
   return (
-    <>
+    <div className='bg-veryDarkCyan p-7 rounded '>
       <Icon
         svgELement={
           <svg width='64' height='40' xmlns='http://www.w3.org/2000/svg'>
@@ -20,13 +20,15 @@ function LuxuryCard() {
           </svg>
         }
       />
-      <Title title='Luxury' />
+      <Title title='LUXURY' />
       <Description
         text='Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
   rental and arrive in style.'
       />
-      <button>Learn More</button>
-    </>
+      <button className='bg-veryLightGray  hover:bg-veryDarkCyan hover:text-white border-2 text-veryDarkCyan  font-big-shoulders-display rounded-full py-2 px-4'>
+        Learn More
+      </button>
+    </div>
   );
 }
 
